@@ -11352,3 +11352,20 @@
 127.0.0.1 [19/Dec/2023:12:30:28 +0100] PUBLISH "hls" "source_1_stream_360" "" - 12376467 529 "" "FMLE/3.0 (compatible; Lavf60.18" (33s)
 127.0.0.1 - - [19/Dec/2023:12:30:30 +0100] "GET /stats HTTP/1.1" 200 543 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:120.0) Gecko/20100101 Firefox/120.0"
 127.0.0.1 - - [19/Dec/2023:12:30:30 +0100] "GET /stat.xsl HTTP/1.1" 304 0 "http://localhost/stats" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:120.0) Gecko/20100101 Firefox/120.0"
+2023/12/19 12:36:26 [error] 4424#3164: *7 directory index of "C:\Users\Kuba\Desktop\nginx_git\nginx_project/site/" is forbidden, client: 127.0.0.1, server: demo.lab.net, request: "GET / HTTP/1.1", host: "localhost"
+127.0.0.1 - - [19/Dec/2023:12:36:26 +0100] "GET / HTTP/1.1" 403 153 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:120.0) Gecko/20100101 Firefox/120.0"
+127.0.0.1 - - [19/Dec/2023:12:36:31 +0100] "GET /stats HTTP/1.1" 200 4936 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:120.0) Gecko/20100101 Firefox/120.0"
+127.0.0.1 - - [19/Dec/2023:12:36:34 +0100] "GET /stats HTTP/1.1" 200 4936 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:120.0) Gecko/20100101 Firefox/120.0"
+127.0.0.1 - - [19/Dec/2023:12:36:34 +0100] "GET /stat.xsl HTTP/1.1" 304 0 "http://localhost/stats" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:120.0) Gecko/20100101 Firefox/120.0"
+127.0.0.1 - - [19/Dec/2023:12:36:37 +0100] "GET /stats HTTP/1.1" 200 4936 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:120.0) Gecko/20100101 Firefox/120.0"
+127.0.0.1 - - [19/Dec/2023:12:36:37 +0100] "GET /stat.xsl HTTP/1.1" 304 0 "http://localhost/stats" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:120.0) Gecko/20100101 Firefox/120.0"
+127.0.0.1 - - [19/Dec/2023:12:36:40 +0100] "GET /stats HTTP/1.1" 200 4935 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:120.0) Gecko/20100101 Firefox/120.0"
+127.0.0.1 - - [19/Dec/2023:12:36:40 +0100] "GET /stat.xsl HTTP/1.1" 304 0 "http://localhost/stats" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:120.0) Gecko/20100101 Firefox/120.0"
+127.0.0.1 - - [19/Dec/2023:12:36:43 +0100] "GET /stats HTTP/1.1" 200 4932 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:120.0) Gecko/20100101 Firefox/120.0"
+127.0.0.1 - - [19/Dec/2023:12:36:43 +0100] "GET /stat.xsl HTTP/1.1" 304 0 "http://localhost/stats" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:120.0) Gecko/20100101 Firefox/120.0"
+127.0.0.1 [19/Dec/2023:12:36:46 +0100] PUBLISH "hls" "source_2_stream_720" "" - 8188395 529 "" "FMLE/3.0 (compatible; Lavf60.18" (28s)
+127.0.0.1 [19/Dec/2023:12:36:46 +0100] PUBLISH "hls" "source_2_stream_360" "" - 2108788 529 "" "FMLE/3.0 (compatible; Lavf60.18" (27s)
+127.0.0.1 [19/Dec/2023:12:36:46 +0100] PUBLISH "hls" "source_2_stream_480" "" - 2108788 529 "" "FMLE/3.0 (compatible; Lavf60.18" (28s)
+127.0.0.1 [19/Dec/2023:12:36:46 +0100] PUBLISH "hls" "source_1_stream_720" "" - 8243224 529 "" "FMLE/3.0 (compatible; Lavf60.18" (29s)
+127.0.0.1 [19/Dec/2023:12:36:46 +0100] PUBLISH "hls" "source_1_stream_360" "" - 10573978 529 "" "FMLE/3.0 (compatible; Lavf60.18" (28s)
+127.0.0.1 [19/Dec/2023:12:36:46 +0100] PUBLISH "hls" "source_1_stream_480" "" - 10573978 529 "" "FMLE/3.0 (compatible; Lavf60.18" (28s)

@@ -14,6 +14,8 @@ A_CODEC = "aac"
 AUDIO_PATH = "audio/"
 THUMBNAIL_DIR = "thumbnails/"
 
+MAX_ID = 2
+
 # json error handling
 try:
     with open(JSON_CONFIG_FILE_PATH, 'r') as file:
@@ -52,6 +54,8 @@ for source in loaded_sources:
         "-f", "image2",
     ]
     command_list.append(command)
+    if id == MAX_ID:
+        break;
 
 def run_command(command):
     print("executing ffmpeg command...")
