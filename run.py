@@ -14,7 +14,9 @@ A_CODEC = "aac"
 AUDIO_PATH = "audio/"
 THUMBNAIL_DIR = "thumbnails/"
 
-MAX_ID = 2
+DEBUG = True
+
+MAX_ID = 1
 
 # json error handling
 try:
@@ -55,12 +57,15 @@ for source in loaded_sources:
     ]
     command_list.append(command)
     if id == MAX_ID:
-        break;
+        break
 
 def run_command(command):
     print("executing ffmpeg command...")
     try:
-        subprocess.run(command, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL, check=True, shell=True)
+        if DEBUG:
+            subprocess.run(command, check=True, shell=True)
+        else: 
+            subprocess.run(command, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL, check=True, shell=True)
     except subprocess.CalledProcessError:
         print(f"Command failed: {' '.join(command)}")
 
