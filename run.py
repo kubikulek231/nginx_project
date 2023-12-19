@@ -43,17 +43,18 @@ for source in loaded_sources:
     command = [
         "ffmpeg.exe",
         "-stream_loop", "-1", "-i", video_path,
-        "-stream_loop", "-1", "-i", audio_filename,
+        
         "-threads", "2",
         "-c:v", V_CODEC,
         "-preset", "veryfast",
-        "-c:a", A_CODEC, "-b:a:0", "128k",
+        
         "-b:v:0", "2048k", "-s:v:0", "1280x720", "-f:v:0", "flv", f"{target}_stream_720",
         "-b:v:1", "448k", "-s:v:1", "854x480", "-f:v:1", "flv", f"{target}_stream_480",
         "-b:v:2", "288k", "-s:v:2", "640x360", "-f:v:2", "flv", f"{target}_stream_360",
         "-vf", f"fps=fps=1, scale=400:255",
         "-update", "1", "-y", thumbnail_path,
-        "-f", "image2",
+        "-stream_loop", "-1", "-i", audio_filename,
+        
     ]
 
     command_list.append(command)
