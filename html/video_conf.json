@@ -11,7 +11,7 @@
       },
       {
         "source_id": 2,
-        "video_path": "rtsp://86.44.41.160/axis-media/media.3gp",
+        "video_path": "https://s24.ipcamlive.com/streams/18r1soehukjd75gyi/stream.m3u8",
         "video_title": "Sample video title",
         "video_description": "Sample video description",
         "audio_title": "Sample audio title",

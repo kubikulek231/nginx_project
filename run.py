@@ -16,7 +16,7 @@ THUMBNAIL_DIR = "thumbnails/"
 
 DEBUG = True
 
-MAX_ID = 1
+MAX_ID = 2
 
 # json error handling
 try:
@@ -54,7 +54,6 @@ for source in loaded_sources:
         "-vf", f"fps=fps=1, scale=400:255",
         "-update", "1", "-y", thumbnail_path,
         "-stream_loop", "-1", "-i", audio_filename,
-        
     ]
 
     command_list.append(command)

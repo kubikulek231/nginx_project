@@ -17451,3 +17451,47 @@
 127.0.0.1 [19/Dec/2023:20:28:48 +0100] PUBLISH "hls" "source_1_stream_360" "" - 40711049 529 "" "FMLE/3.0 (compatible; Lavf60.18" (1m 23s)
 2023/12/19 20:32:22 [error] 9676#1732: *185 CreateFile() "C:\Users\Kuba\Desktop\nginx_project/site/wpad.dat" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: demo.lab.net, request: "GET /wpad.dat HTTP/1.1", host: "wpad.home"
 127.0.0.1 - - [19/Dec/2023:20:32:22 +0100] "GET /wpad.dat HTTP/1.1" 404 153 "-" "WinHttp-Autoproxy-Service/5.1"
+127.0.0.1 [19/Dec/2023:20:34:10 +0100] PUBLISH "hls" "source_1_stream_720" "" - 61280823 409 "" "FMLE/3.0 (compatible; Lavf60.18" (2m 4s)
+127.0.0.1 [19/Dec/2023:20:34:10 +0100] PUBLISH "hls" "source_1_stream_480" "" - 59053445 409 "" "FMLE/3.0 (compatible; Lavf60.18" (2m 4s)
+127.0.0.1 [19/Dec/2023:20:34:10 +0100] PUBLISH "hls" "source_1_stream_360" "" - 59053445 409 "" "FMLE/3.0 (compatible; Lavf60.18" (2m 3s)
+127.0.0.1 [19/Dec/2023:20:35:54 +0100] PUBLISH "hls" "source_1_stream_720" "" - 14355680 529 "" "FMLE/3.0 (compatible; Lavf60.18" (29s)
+127.0.0.1 [19/Dec/2023:20:35:54 +0100] PUBLISH "hls" "source_1_stream_480" "" - 13855967 529 "" "FMLE/3.0 (compatible; Lavf60.18" (29s)
+127.0.0.1 [19/Dec/2023:20:35:54 +0100] PUBLISH "hls" "source_1_stream_360" "" - 13855967 529 "" "FMLE/3.0 (compatible; Lavf60.18" (29s)
+127.0.0.1 [19/Dec/2023:20:39:35 +0100] PUBLISH "hls" "source_1_stream_720" "" - 38830122 409 "" "FMLE/3.0 (compatible; Lavf60.18" (1m 1s)
+127.0.0.1 [19/Dec/2023:20:39:35 +0100] PUBLISH "hls" "source_1_stream_480" "" - 38883176 409 "" "FMLE/3.0 (compatible; Lavf60.18" (1m 0s)
+127.0.0.1 [19/Dec/2023:20:39:35 +0100] PUBLISH "hls" "source_1_stream_360" "" - 38884449 409 "" "FMLE/3.0 (compatible; Lavf60.18" (1m 0s)
+2023/12/19 20:42:22 [error] 9676#1732: *192 CreateFile() "C:\Users\Kuba\Desktop\nginx_project/site/wpad.dat" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: demo.lab.net, request: "GET /wpad.dat HTTP/1.1", host: "wpad.home"
+127.0.0.1 - - [19/Dec/2023:20:42:22 +0100] "GET /wpad.dat HTTP/1.1" 404 153 "-" "WinHttp-Autoproxy-Service/5.1"
+127.0.0.1 [19/Dec/2023:20:50:54 +0100] PUBLISH "hls" "source_1_stream_720" "" - 187405449 409 "" "FMLE/3.0 (compatible; Lavf60.18" (4m 32s)
+127.0.0.1 [19/Dec/2023:20:50:54 +0100] PUBLISH "hls" "source_1_stream_480" "" - 186952309 409 "" "FMLE/3.0 (compatible; Lavf60.18" (4m 31s)
+127.0.0.1 [19/Dec/2023:20:50:54 +0100] PUBLISH "hls" "source_1_stream_360" "" - 186950209 409 "" "FMLE/3.0 (compatible; Lavf60.18" (4m 31s)
+2023/12/19 20:52:22 [error] 9676#1732: *196 CreateFile() "C:\Users\Kuba\Desktop\nginx_project/site/wpad.dat" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: demo.lab.net, request: "GET /wpad.dat HTTP/1.1", host: "wpad.home"
+127.0.0.1 - - [19/Dec/2023:20:52:22 +0100] "GET /wpad.dat HTTP/1.1" 404 153 "-" "WinHttp-Autoproxy-Service/5.1"
+2023/12/19 21:02:22 [error] 9676#1732: *197 CreateFile() "C:\Users\Kuba\Desktop\nginx_project/site/wpad.dat" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: demo.lab.net, request: "GET /wpad.dat HTTP/1.1", host: "wpad.home"
+127.0.0.1 - - [19/Dec/2023:21:02:22 +0100] "GET /wpad.dat HTTP/1.1" 404 153 "-" "WinHttp-Autoproxy-Service/5.1"
+2023/12/19 21:12:22 [error] 9676#1732: *198 CreateFile() "C:\Users\Kuba\Desktop\nginx_project/site/wpad.dat" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: demo.lab.net, request: "GET /wpad.dat HTTP/1.1", host: "wpad.home"
+127.0.0.1 - - [19/Dec/2023:21:12:22 +0100] "GET /wpad.dat HTTP/1.1" 404 153 "-" "WinHttp-Autoproxy-Service/5.1"
+2023/12/19 21:22:22 [error] 9676#1732: *199 CreateFile() "C:\Users\Kuba\Desktop\nginx_project/site/wpad.dat" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: demo.lab.net, request: "GET /wpad.dat HTTP/1.1", host: "wpad.home"
+127.0.0.1 - - [19/Dec/2023:21:22:22 +0100] "GET /wpad.dat HTTP/1.1" 404 153 "-" "WinHttp-Autoproxy-Service/5.1"
+127.0.0.1 [19/Dec/2023:21:25:39 +0100] PUBLISH "hls" "source_1_stream_720" "" - 803822 529 "" "FMLE/3.0 (compatible; Lavf60.18" (1s)
+127.0.0.1 [19/Dec/2023:21:25:39 +0100] PUBLISH "hls" "source_1_stream_480" "" - 703388 529 "" "FMLE/3.0 (compatible; Lavf60.18" (0s)
+127.0.0.1 [19/Dec/2023:21:25:39 +0100] PUBLISH "hls" "source_1_stream_360" "" - 703388 529 "" "FMLE/3.0 (compatible; Lavf60.18" (0s)
+127.0.0.1 [19/Dec/2023:21:31:05 +0100] PUBLISH "hls" "source_1_stream_720" "" - 5306205 409 "" "FMLE/3.0 (compatible; Lavf60.18" (4m 37s)
+127.0.0.1 [19/Dec/2023:21:31:05 +0100] PUBLISH "hls" "source_1_stream_480" "" - 3094876 409 "" "FMLE/3.0 (compatible; Lavf60.18" (4m 37s)
+127.0.0.1 [19/Dec/2023:21:31:05 +0100] PUBLISH "hls" "source_1_stream_360" "" - 3094876 409 "" "FMLE/3.0 (compatible; Lavf60.18" (4m 37s)
+2023/12/19 21:32:22 [error] 9676#1732: *206 CreateFile() "C:\Users\Kuba\Desktop\nginx_project/site/wpad.dat" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: demo.lab.net, request: "GET /wpad.dat HTTP/1.1", host: "wpad.home"
+127.0.0.1 - - [19/Dec/2023:21:32:22 +0100] "GET /wpad.dat HTTP/1.1" 404 153 "-" "WinHttp-Autoproxy-Service/5.1"
+127.0.0.1 [19/Dec/2023:21:39:29 +0100] PUBLISH "hls" "source_1_stream_720" "" - 9910381 409 "" "FMLE/3.0 (compatible; Lavf60.18" (19s)
+127.0.0.1 [19/Dec/2023:21:39:29 +0100] PUBLISH "hls" "source_1_stream_480" "" - 9836239 409 "" "FMLE/3.0 (compatible; Lavf60.18" (19s)
+127.0.0.1 [19/Dec/2023:21:39:29 +0100] PUBLISH "hls" "source_1_stream_360" "" - 9837082 409 "" "FMLE/3.0 (compatible; Lavf60.18" (19s)
+127.0.0.1 [19/Dec/2023:21:39:57 +0100] PUBLISH "hls" "source_1_stream_720" "" - 2411977 529 "" "FMLE/3.0 (compatible; Lavf60.18" (5s)
+127.0.0.1 [19/Dec/2023:21:39:57 +0100] PUBLISH "hls" "source_1_stream_480" "" - 1639980 529 "" "FMLE/3.0 (compatible; Lavf60.18" (4s)
+127.0.0.1 [19/Dec/2023:21:39:57 +0100] PUBLISH "hls" "source_1_stream_360" "" - 1639980 529 "" "FMLE/3.0 (compatible; Lavf60.18" (4s)
+127.0.0.1 [19/Dec/2023:21:40:45 +0100] PUBLISH "hls" "source_1_stream_720" "" - 3194422 529 "" "FMLE/3.0 (compatible; Lavf60.18" (8s)
+127.0.0.1 [19/Dec/2023:21:40:45 +0100] PUBLISH "hls" "source_1_stream_360" "" - 2556036 529 "" "FMLE/3.0 (compatible; Lavf60.18" (8s)
+127.0.0.1 [19/Dec/2023:21:40:45 +0100] PUBLISH "hls" "source_1_stream_480" "" - 2556036 529 "" "FMLE/3.0 (compatible; Lavf60.18" (8s)
+2023/12/19 21:42:22 [error] 9676#1732: *219 CreateFile() "C:\Users\Kuba\Desktop\nginx_project/site/wpad.dat" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: demo.lab.net, request: "GET /wpad.dat HTTP/1.1", host: "wpad.home"
+127.0.0.1 - - [19/Dec/2023:21:42:22 +0100] "GET /wpad.dat HTTP/1.1" 404 153 "-" "WinHttp-Autoproxy-Service/5.1"
+127.0.0.1 [19/Dec/2023:21:43:06 +0100] PUBLISH "hls" "source_1_stream_720" "" - 36821099 529 "" "FMLE/3.0 (compatible; Lavf60.18" (2m 10s)
+127.0.0.1 [19/Dec/2023:21:43:06 +0100] PUBLISH "hls" "source_1_stream_480" "" - 26409951 529 "" "FMLE/3.0 (compatible; Lavf60.18" (2m 10s)
+127.0.0.1 [19/Dec/2023:21:43:06 +0100] PUBLISH "hls" "source_1_stream_360" "" - 26409951 529 "" "FMLE/3.0 (compatible; Lavf60.18" (2m 10s)
