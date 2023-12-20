@@ -7,7 +7,7 @@ from concurrent.futures import ThreadPoolExecutor
 
 class consts:
     DEBUG = True
-    MAX_ID = 1
+    MAX_ID = 4
 
     # paths, directories
     JSON_CONFIG_FILE_PATH = "site/video_conf.json"
