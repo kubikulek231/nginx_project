@@ -21,7 +21,7 @@ $(document).ready(function () {
             setInterval(function () {
                 var currentTime = new Date().getTime();
                 document.getElementById("video-js-hover-" + val['source_id']).poster = 'thumbnails/source_' + val['source_id'] + '.jpg?' + currentTime;
-            }, 1000);
+            }, 3000);
         });
 
         // listen for click event
