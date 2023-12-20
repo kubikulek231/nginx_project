@@ -477,3 +477,6 @@
 2023/12/20 21:12:42 [error] 9548#1808: *214 hls: rename failed: 'temp/tmp_hls/source_4_stream.m3u8.bak'->'temp/tmp_hls/source_4_stream.m3u8' (5: Access is denied), client: 127.0.0.1, server: 0.0.0.0:1935
 2023/12/20 21:12:42 [error] 9548#1808: *207 hls: rename failed: 'temp/tmp_hls/source_4_stream.m3u8.bak'->'temp/tmp_hls/source_4_stream.m3u8' (5: Access is denied), client: 127.0.0.1, server: 0.0.0.0:1935
 2023/12/20 21:12:42 [error] 9548#1808: *210 hls: rename failed: 'temp/tmp_hls/source_4_stream.m3u8.bak'->'temp/tmp_hls/source_4_stream.m3u8' (5: Access is denied), client: 127.0.0.1, server: 0.0.0.0:1935
+2023/12/20 21:28:44 [error] 4580#16212: *12 hls: rename failed: 'temp/tmp_hls/source_4_stream.m3u8.bak'->'temp/tmp_hls/source_4_stream.m3u8' (5: Access is denied), client: 127.0.0.1, server: 0.0.0.0:1935
+2023/12/20 21:28:53 [error] 4580#16212: *14 hls: rename failed: 'temp/tmp_hls/source_1_stream_360.m3u8.bak'->'temp/tmp_hls/source_1_stream_360.m3u8' (5: Access is denied), client: 127.0.0.1, server: 0.0.0.0:1935
+2023/12/20 21:28:53 [error] 4580#16212: *14 hls: rename failed: 'temp/tmp_hls/source_1_stream_360.m3u8.bak'->'temp/tmp_hls/source_1_stream_360.m3u8' (5: Access is denied), client: 127.0.0.1, server: 0.0.0.0:1935

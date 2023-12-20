@@ -30,35 +30,63 @@ $(document).ready(function () {
         // listen for click event
         $(".card-show-popup").click(function () {
             var videoId = $(this).data('id');
-            
-            var newMainPlayer = '<video id="main_video" class="video-js" controls preload="none" style="width:100%;height:500px;" poster="thumbnails/source_1.jpg" data-setup='+'>' +
-                '<source src="hls/source_' + videoId + '_stream_720.m3u8" type="application/x-mpegURL">' +
+        
+            // function to get the appropriate video quality based on connection speed
+            function getVideoQuality() {
+                if (navigator.connection) {
+                    var connection = navigator.connection || navigator.mozConnection || navigator.webkitConnection;
+        
+                    // use downlink to determine the connection speed
+                    if (connection.downlink >= 4) {
+                        return '720';
+                    } else if (connection.downlink >= 2) {
+                        return '480';
+                    } else {
+                        return '360';
+                    }
+                } else {
+                    // default to a reasonable quality if navigator.connection is not available
+                    return '360';
+                }
+            }
+        
+            // determine initial video quality based on connection speed
+            var initialQuality = getVideoQuality();
+        
+            var newMainPlayer = '<video id="main_video" class="video-js" controls preload="none" style="width:100%;height:500px;" poster="thumbnails/source_1.jpg" data-setup=' + '>' +
+                '<source src="hls/source_' + videoId + '_stream_' + initialQuality + '.m3u8" type="application/x-mpegURL">' +
                 '</video>';
-            
+        
             $("#main_video_holder").append(newMainPlayer);
-
+        
             // set the source for the main_video
             var qualities = [
                 { src: 'hls/source_' + videoId + '_stream_360.m3u8', type: 'application/x-mpegURL', label: '360', selected: false },
                 { src: 'hls/source_' + videoId + '_stream_480.m3u8', type: 'application/x-mpegURL', label: '480', selected: false },
-                { src: 'hls/source_' + videoId + '_stream_720.m3u8', type: 'application/x-mpegURL', label: '720', selected: true }
+                { src: 'hls/source_' + videoId + '_stream_720.m3u8', type: 'application/x-mpegURL', label: '720', selected: false }
             ];
-
+        
+            // set the selected quality based on the initial quality
+            var selectedQualityIndex = qualities.findIndex(function (quality) {
+                return quality.label === initialQuality;
+            });
+            qualities[selectedQualityIndex].selected = true;
+        
             videojs("main_video").src(qualities);
             videojs("main_video").poster('thumbnails/source_' + videoId + '.jpg');
-
+        
             // set the main_video to play automatically
             videojs("main_video").autoplay(true);
-
+        
             // add a dropdown menu to select qualities
             var qualityDropdown = '<select id="qualityDropdown">';
             qualities.forEach(function (quality) {
-                qualityDropdown += '<option value="' + quality.src + '">' + quality.label + 'p</option>';
+                qualityDropdown += '<option value="' + quality.src + '" ' + (quality.selected ? 'selected' : '') + '>' + quality.label + 'p</option>';
             });
             qualityDropdown += '</select>';
-
+        
             $("#main_video_holder").append(qualityDropdown);
-
+        
             // listen for quality change
             $("#qualityDropdown").change(function () {
                 var selectedQuality = $("#qualityDropdown").val();
@@ -66,6 +94,7 @@ $(document).ready(function () {
                 videojs("main_video").play();
             });
         });
+        
 
 
         // close the video and dispose when the modal is closed
