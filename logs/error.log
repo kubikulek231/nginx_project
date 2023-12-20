@@ -1,0 +1,13 @@
+2023/12/19 22:04:21 [emerg] 46124#46128: CreateDirectory() "C:\Users\floridaman\Desktop\nginx-rat/temp/client_body_temp" failed (3: The system cannot find the path specified)
+2023/12/19 22:56:40 [error] 46716#46804: *60 hls: rename failed: 'temp/tmp_hls/source_1_stream_720.m3u8.bak'->'temp/tmp_hls/source_1_stream_720.m3u8' (5: Access is denied), client: 127.0.0.1, server: 0.0.0.0:1935
+2023/12/19 22:56:57 [error] 46716#46804: *60 hls: rename failed: 'temp/tmp_hls/source_1_stream_720.m3u8.bak'->'temp/tmp_hls/source_1_stream_720.m3u8' (5: Access is denied), client: 127.0.0.1, server: 0.0.0.0:1935
+2023/12/19 22:57:03 [error] 46716#46804: *60 hls: rename failed: 'temp/tmp_hls/source_1_stream_720.m3u8.bak'->'temp/tmp_hls/source_1_stream_720.m3u8' (5: Access is denied), client: 127.0.0.1, server: 0.0.0.0:1935
+2023/12/19 22:57:13 [error] 46716#46804: *60 hls: rename failed: 'temp/tmp_hls/source_1_stream_720.m3u8.bak'->'temp/tmp_hls/source_1_stream_720.m3u8' (5: Access is denied), client: 127.0.0.1, server: 0.0.0.0:1935
+2023/12/19 22:57:22 [error] 46716#46804: *60 hls: rename failed: 'temp/tmp_hls/source_1_stream_720.m3u8.bak'->'temp/tmp_hls/source_1_stream_720.m3u8' (5: Access is denied), client: 127.0.0.1, server: 0.0.0.0:1935
+2023/12/19 22:57:28 [error] 46716#46804: *60 hls: rename failed: 'temp/tmp_hls/source_1_stream_720.m3u8.bak'->'temp/tmp_hls/source_1_stream_720.m3u8' (5: Access is denied), client: 127.0.0.1, server: 0.0.0.0:1935
+2023/12/19 22:57:39 [error] 46716#46804: *60 hls: rename failed: 'temp/tmp_hls/source_1_stream_720.m3u8.bak'->'temp/tmp_hls/source_1_stream_720.m3u8' (5: Access is denied), client: 127.0.0.1, server: 0.0.0.0:1935
+2023/12/20 13:50:52 [alert] 5900#10176: DeleteFile() "C:\Users\Kuba\Desktop\nginx_project/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2023/12/20 14:09:08 [notice] 4948#8820: signal process started
+2023/12/20 14:09:08 [error] 4948#8820: CreateFile() "C:\Users\Kuba\Desktop\nginx_project/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2023/12/20 14:09:10 [notice] 6332#11536: signal process started
+2023/12/20 14:09:10 [error] 6332#11536: CreateFile() "C:\Users\Kuba\Desktop\nginx_project/logs/nginx.pid" failed (2: The system cannot find the file specified)
