@@ -39,8 +39,8 @@ $(document).ready(function () {
 
             // set the source for the main_video
             var qualities = [
-                { src: 'hls/source_' + videoId + '_stream_480.m3u8', type: 'application/x-mpegURL', label: '480', selected: false },
                 { src: 'hls/source_' + videoId + '_stream_360.m3u8', type: 'application/x-mpegURL', label: '360', selected: false },
+                { src: 'hls/source_' + videoId + '_stream_480.m3u8', type: 'application/x-mpegURL', label: '480', selected: false },
                 { src: 'hls/source_' + videoId + '_stream_720.m3u8', type: 'application/x-mpegURL', label: '720', selected: true }
             ];
 
@@ -82,6 +82,7 @@ $(document).ready(function () {
             var vid_id = $(this).data('video_id');
             videojs("video-js-hover-" + vid_id).play();
         });
+
         // listen for mouseleave event on the video_holder div
         $("#video_holder").on("mouseleave", ".video-js-hover", function () {
             var vid_id = $(this).data('video_id');
