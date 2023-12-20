@@ -94,3 +94,17 @@
 2023/12/20 14:58:15 [error] 4968#4920: *16 hls: force fragment split: 50.016 sec, , client: 127.0.0.1, server: 0.0.0.0:1935
 2023/12/20 14:58:15 [error] 4968#4920: *7 hls: force fragment split: 50.016 sec, , client: 127.0.0.1, server: 0.0.0.0:1935
 2023/12/20 14:58:15 [error] 4968#4920: *10 hls: force fragment split: 50.016 sec, , client: 127.0.0.1, server: 0.0.0.0:1935
+2023/12/20 15:17:39 [error] 5636#6028: *1 hls: rename failed: 'temp/tmp_hls/source_1_stream.m3u8.bak'->'temp/tmp_hls/source_1_stream.m3u8' (5: Access is denied), client: 127.0.0.1, server: 0.0.0.0:1935
+2023/12/20 15:28:39 [error] 11032#7212: *1 hls: rename failed: 'temp/tmp_hls/source_1_stream.m3u8.bak'->'temp/tmp_hls/source_1_stream.m3u8' (5: Access is denied), client: 127.0.0.1, server: 0.0.0.0:1935
+2023/12/20 16:29:19 [error] 9108#720: *3 hls: rename failed: 'temp/tmp_hls/source_1_stream.m3u8.bak'->'temp/tmp_hls/source_1_stream.m3u8' (5: Access is denied), client: 127.0.0.1, server: 0.0.0.0:1935
+2023/12/20 16:35:33 [error] 9108#720: *3 hls: rename failed: 'temp/tmp_hls/source_1_stream_360.m3u8.bak'->'temp/tmp_hls/source_1_stream_360.m3u8' (5: Access is denied), client: 127.0.0.1, server: 0.0.0.0:1935
+2023/12/20 16:39:35 [error] 9108#720: *2 hls: rename failed: 'temp/tmp_hls/source_1_stream_480.m3u8.bak'->'temp/tmp_hls/source_1_stream_480.m3u8' (5: Access is denied), client: 127.0.0.1, server: 0.0.0.0:1935
+2023/12/20 18:54:58 [error] 12900#9296: *20 hls: rename failed: 'temp/tmp_hls/source_1_stream.m3u8.bak'->'temp/tmp_hls/source_1_stream.m3u8' (5: Access is denied), client: 127.0.0.1, server: 0.0.0.0:1935
+2023/12/20 19:06:36 [error] 12900#9296: *18 hls: rename failed: 'temp/tmp_hls/source_1_stream_720.m3u8.bak'->'temp/tmp_hls/source_1_stream_720.m3u8' (5: Access is denied), client: 127.0.0.1, server: 0.0.0.0:1935
+2023/12/20 19:57:00 [error] 12900#9296: *19 hls: rename failed: 'temp/tmp_hls/source_1_stream_480.m3u8.bak'->'temp/tmp_hls/source_1_stream_480.m3u8' (5: Access is denied), client: 127.0.0.1, server: 0.0.0.0:1935
+2023/12/20 20:08:42 [error] 12900#9296: *18 hls: rename failed: 'temp/tmp_hls/source_1_stream.m3u8.bak'->'temp/tmp_hls/source_1_stream.m3u8' (5: Access is denied), client: 127.0.0.1, server: 0.0.0.0:1935
+2023/12/20 20:10:16 [error] 12900#9296: *18 hls: rename failed: 'temp/tmp_hls/source_1_stream.m3u8.bak'->'temp/tmp_hls/source_1_stream.m3u8' (5: Access is denied), client: 127.0.0.1, server: 0.0.0.0:1935
+2023/12/20 20:10:16 [error] 12900#9296: *19 hls: rename failed: 'temp/tmp_hls/source_1_stream.m3u8.bak'->'temp/tmp_hls/source_1_stream.m3u8' (5: Access is denied), client: 127.0.0.1, server: 0.0.0.0:1935
+2023/12/20 20:10:17 [error] 12900#9296: *19 hls: rename failed: 'temp/tmp_hls/source_1_stream.m3u8.bak'->'temp/tmp_hls/source_1_stream.m3u8' (5: Access is denied), client: 127.0.0.1, server: 0.0.0.0:1935
+2023/12/20 20:10:17 [error] 12900#9296: *18 hls: rename failed: 'temp/tmp_hls/source_1_stream.m3u8.bak'->'temp/tmp_hls/source_1_stream.m3u8' (5: Access is denied), client: 127.0.0.1, server: 0.0.0.0:1935
+2023/12/20 20:10:17 [error] 12900#9296: *20 hls: rename failed: 'temp/tmp_hls/source_1_stream.m3u8.bak'->'temp/tmp_hls/source_1_stream.m3u8' (5: Access is denied), client: 127.0.0.1, server: 0.0.0.0:1935
