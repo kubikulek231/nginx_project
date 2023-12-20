@@ -3,35 +3,35 @@
       {
         "source_id": 1,
         "video_path": "https://s24.ipcamlive.com/streams/18r1soehukjd75gyi/stream.m3u8",
-        "video_title": "Sample video title",
-        "video_description": "Sample video description 1", 
+        "video_title": "Kozlovice",
+        "video_description": "Náves", 
         "audio_title": "Sample audio title",
         "audio_description": "Sample audio description",
         "audio_filename": "bal.mp3"
       },
       {
         "source_id": 2,
-        "video_path": "https://s24.ipcamlive.com/streams/18r1soehukjd75gyi/stream.m3u8",
-        "video_title": "Sample video title",
-        "video_description": "Sample video description 2",
+        "video_path": "https://s17.ipcamlive.com/streams/11iegkjt2xbokoidm/stream.m3u8",
+        "video_title": "Kozlovice",
+        "video_description": "Náves od zastávky",
         "audio_title": "Sample audio title",
         "audio_description": "Sample audio description",
         "audio_filename": "jozin.mp3"
       },
       {
         "source_id": 3,
-        "video_path": "https://s105.ipcamlive.com/streams/69vtokcbo5gfmmxq3/stream.m3u8",
-        "video_title": "Sample video title",
-        "video_description": "Sample video description 3",
+        "video_path": "https://s58.ipcamlive.com/streams/3aoe64uinfycm7tsa/stream.m3u8",
+        "video_title": "Kozlovice",
+        "video_description": "Pohled od hasičárny",
         "audio_title": "Sample audio title",
         "audio_description": "Sample audio description",
         "audio_filename": "fajn.mp3"
       },
       {
         "source_id": 4,
-        "video_path": "https://s105.ipcamlive.com/streams/69vtokcbo5gfmmxq3/stream.m3u8",
-        "video_title": "Sample video title",
-        "video_description": "Sample video description 4",
+        "video_path": "https://s24.ipcamlive.com/streams/184tjb2sjnmowhrgv/stream.m3u8",
+        "video_title": "Kozlovice",
+        "video_description": "Fotbalové hřiště",
         "audio_title": "Sample audio title",
         "audio_description": "Sample audio description",
         "audio_filename": "duchove.mp3"
